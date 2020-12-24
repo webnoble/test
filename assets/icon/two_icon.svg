@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="22px" viewBox="0 0 18 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>two_icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页-总览" transform="translate(-46.000000, -764.000000)">
+            <g id="设备告警排名" transform="translate(30.000000, 662.000000)">
+                <g id="编组-4" transform="translate(16.000000, 61.000000)">
+                    <g id="two_icon" transform="translate(0.000000, 41.000000)">
+                        <path d="M9,0 C13.9705627,0 18,3.9398942 18,8.8 C18,11.5772033 16.6842654,14.0539294 14.6290409,15.6667389 L14.6256845,15.6693715 L14.625,22 L9,19.8 L3.375,22 L3.37353037,15.6687559 C1.31573461,14.0539294 0,11.5772033 0,8.8 C0,3.9398942 4.02943725,0 9,0 Z M9,1.1 C4.6507576,1.1 1.125,4.54740743 1.125,8.8 C1.125,13.0525926 4.6507576,16.5 9,16.5 C13.3492424,16.5 16.875,13.0525926 16.875,8.8 C16.875,4.54740743 13.3492424,1.1 9,1.1 Z M9,2.2 C12.7279221,2.2 15.75,5.15492065 15.75,8.8 C15.75,12.4450793 12.7279221,15.4 9,15.4 C5.27207794,15.4 2.25,12.4450793 2.25,8.8 C2.25,5.15492065 5.27207794,2.2 9,2.2 Z" id="形状结合" fill="#F57923"></path>
+                        <text id="2" opacity="0.9" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="6.16308594" y="13">2</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

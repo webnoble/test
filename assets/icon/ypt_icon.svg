@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="10px" viewBox="0 0 15 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>ypt_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#5CE8FF" offset="0%"></stop>
+            <stop stop-color="#5466E0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页-总览" transform="translate(-1298.000000, -107.000000)">
+            <g id="云平台" transform="translate(1282.000000, 94.000000)">
+                <g id="ypt_icon" transform="translate(15.673913, 11.000000)">
+                    <rect id="矩形" fill="#D8D8D8" opacity="0" x="0.326086957" y="0" width="15" height="15"></rect>
+                    <path d="M7.82608696,2 C9.62569607,2 11.1107238,3.38769749 11.3281122,5.18115384 L11.916996,5.18181818 C13.799785,5.18181818 15.326087,6.70812017 15.326087,8.59090909 C15.326087,10.473698 13.799785,12 11.916996,12 L3.73517787,12 C1.85238895,12 0.326086957,10.473698 0.326086957,8.59090909 C0.326086957,6.70812017 1.85238895,5.18181818 3.73517787,5.18181818 L4.32406173,5.18115384 C4.54145007,3.38769749 6.02647784,2 7.82608696,2 Z" id="形状结合" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,164 @@
+// @import './variables.scss';
+@import "./mixin.scss";
+@import "./transition.scss";
+@import "./element-ui.scss";
+@import "./sidebar.scss";
+
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Microsoft YaHei, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  @font-face {
+    font-family: "iconfont"; /* project id 1819248 */
+    src: url("//at.alicdn.com/t/font_1819248_3t3n94iiwvx.eot");
+    src: url("//at.alicdn.com/t/font_1819248_3t3n94iiwvx.eot?#iefix") format("embedded-opentype"),
+      url("//at.alicdn.com/t/font_1819248_3t3n94iiwvx.woff2") format("woff2"),
+      url("//at.alicdn.com/t/font_1819248_3t3n94iiwvx.woff") format("woff"),
+      url("//at.alicdn.com/t/font_1819248_3t3n94iiwvx.ttf") format("truetype"),
+      url("//at.alicdn.com/t/font_1819248_3t3n94iiwvx.svg#iconfont") format("svg");
+  }
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+// main-container global css
+.app-container {
+  padding: 20px;
+}
+html {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+body,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td {
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+}
+select {
+  font-size: 12px;
+}
+table {
+  border-collapse: collapse;
+}
+fieldset,
+img {
+  border: none;
+}
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+fieldset p {
+  margin: 0;
+  padding: 0008px;
+}
+legend {
+  display: none;
+}
+address,
+caption,
+em,
+strong,
+th,
+i {
+  font-style: normal;
+  font-weight: 400;
+}
+ol,
+ul {
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+}
+caption,
+th {
+  text-align: left;
+}
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+  content: ””;
+}
+
+.g6-tooltip {
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #545454;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px 8px;
+  box-shadow: rgb(174, 174, 174) 0px 0px 10px;
+}

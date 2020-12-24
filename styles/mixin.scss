@@ -1,0 +1,66 @@
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin scrollBar {
+  &::-webkit-scrollbar-track-piece {
+    background: #d3dce6;
+  }
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #99a9bf;
+    border-radius: 20px;
+  }
+}
+
+@mixin relative {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+@mixin themeify {
+  @each $theme-name, $theme-map in $themes {
+      $theme-map: $theme-map !global;
+      [data-theme="#{$theme-name}"] & {
+          @content;
+      }
+  }
+}
+@function themed($key) {
+  @return map-get($theme-map, $key);
+}
+
+@mixin get_color($color) {
+  @include themeify {
+      background-color: themed($color)!important;
+  }
+}
+
+$menuText:#bfcbd9;
+$menuActiveText:#409EFF;
+$subMenuActiveText:#f4f4f5; //https://github.com/ElemeFE/element/issues/12951
+
+$menuBg:#304156;
+$menuHover:#263445;
+
+$subMenuBg:#1f2d3d;
+$subMenuHover:#001528;
+
+$sideBarWidth: 210px;
+$navBar: 64px;
+$deadly: #E10E0E;
+$serious:#CF16A6;
+$normal:#E1800E;
+$healthy:#21f358;
+$highLight:#FFFFFF;
+$light:#A7AEAE;
+$bgColor: #0e1111;
+$contentColor: #141717;

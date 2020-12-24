@@ -1,0 +1,335 @@
+// 头部面包屑和按钮样式
+.headNav {
+  height: 34px;
+  margin-bottom: 15px;
+  .el-breadcrumb {
+    float: left;
+    height: 34px;
+    line-height: 34px;
+  }
+  .el-button {
+    float: right;
+    color: #fff;
+    background-color: #5466e0;
+    margin: 0;
+  }
+}
+// 黑色
+.black {
+  color: #000000;
+}
+.blue {
+  color: #5466E0;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+// 详情大盒子
+.detail_body {
+  color: #606060;
+  ::-webkit-scrollbar{
+    width:5px;
+  }
+  ::-webkit-scrollbar-track{
+    background:rgba(217,218,220,1);
+    border-radius:2px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: #bfbfbf;
+    border-radius:10px;
+  }
+  
+  
+  // 详情文字介绍
+  .detail_box {
+    margin-bottom: 20px;
+    .detail {
+      position: relative;
+      padding: 12px;
+      box-sizing: border-box;
+      background-color: #fff;
+      border: 1px solid #EEEFFF;
+      font-size: 14px;
+      color: #606060;
+      .title {
+        height: 22px;
+        line-height: 22px;
+        margin-bottom: 20px;
+        box-sizing: content-box;
+        .box_title {
+          position: relative;
+          margin-left: 10px;
+          font-size: 16px;
+          color: #5466e0;
+        }
+        .box_title:before {
+          content: '';
+          position: absolute;
+          width: 3px;
+          height: 16px;
+          top: 3px;
+          left: -10px;
+          background-color: #5466e0;
+        }
+        .box_title_center {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          .title_green {
+            color: #27b102;
+          }
+          .title_blue {
+            color: #6D7EE1;
+          }
+          .title_yellow {
+            color: #FFD04E;
+          }
+        }
+        .box_title_right {
+          position: absolute;
+          right: 16px;
+          color: #6d727a;
+          .title_green{
+            color: #27b102;
+          }
+          .title_blue {
+            color: #6D7EE1;
+          }
+          .title_yellow {
+            color: #FFD04E;
+          }
+        }
+        .box_title_two {
+          position: absolute;
+          left: 200px;
+          color: #6d727a;
+          .title_green{
+            color: #27b102;
+          }
+          .title_blue {
+            color: #6D7EE1;
+          }
+          .title_yellow {
+            color: #FFD04E;
+          }
+        }
+        .box_title_three {
+          position: absolute;
+          left: 460px;
+          color: #6d727a;
+          .title_green{
+            color: #27b102;
+          }
+          .title_blue {
+            color: #6D7EE1;
+          }
+          .title_yellow {
+            color: #FFD04E;
+          }
+        }
+        @media screen and (max-width: 1500px) {
+          .box_title_two {
+            left: 100px;
+          }
+          .box_title_three {
+            left: 300px;
+          }
+        }
+      }
+      .main {
+        padding-left: 12px;
+      }
+      .row {
+        height: 22px;
+        line-height: 22px;
+      }
+      .small_round {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 4px;
+        margin-top: -2px;
+        margin-right: 6px;
+        vertical-align: middle;
+      }
+      .iconicon_cog {
+        position: absolute;
+        bottom: 12px;
+        right: 15px;
+        font-size: 81px;
+        // color: #190e74;
+        color: rgba(25,14,116, 0.04);
+        // opacity: 4%;
+      }
+      .round-box {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        .usage {
+          position: absolute;
+          width: 100%;
+          top: calc(50% + 60px);
+          left: 50%;
+          transform: translateX(-50%);
+          text-align: center;
+          color: #606060;
+        }
+        @media screen and (min-width: 1680px) {
+          .usage {
+            top: calc(50% + 80px);
+          }
+        }
+      }
+    }
+    .borderLeftNone {
+      border-left: none!important;
+    }
+    .borderRightNone {
+      border-right: none!important;
+    }
+    .borderRight {
+      border-right: 1px solid rgba(219,219,219,.52)!important;
+    }
+    .borderLeft {
+      border-left: 1px solid rgba(219,219,219,.52)!important;
+    }
+    .run_detail {
+      .row {
+        margin-bottom: 29px;
+      }
+    }
+    .lineChart {
+      .lineChart_title {
+        margin-bottom: 14px;
+      }
+      .leftBox {
+        display: inline-block;
+        height: 22px;
+        line-height: 22px;
+      }
+      .rightBox {
+        float: right;
+        .square {
+          float: left;
+          display: flex;
+          // width: 80px;
+          font-size: 12px;
+          height: 22px;
+          line-height: 22px;
+          text-align: center;
+          margin-left: 10px;
+        }
+        .square:before {
+          content: '';
+          width: 16px;
+          height: 6px;
+          display: inline-block;
+          align-self: center;
+          background-color: #5cabfb;
+          margin-right: 8px;
+        }
+        .two:before {
+          background-color: #2ed6c6;
+        }
+        .three:before {
+          background-color: #ffd04e;
+        }
+        .four:before {
+          background-color: #6d7ee1;
+        }
+      }
+    }
+  }
+  .histogram_box {
+    .histogram_small {
+      height: 90px;
+      padding: 14px 20px;
+      width: 100%;
+      margin-bottom: 20px;
+      background: #FFFFFF;
+      border: 1px solid #EFF0F5;
+      .top_disk {
+        color: #333;
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        // word-wrap: break-word;
+        // word-break: break-all;
+      }
+      .middle_info {
+        height: 30px;
+        display: flex;
+        align-items: center;
+        .figure {
+          float: left;
+          width: calc(100% - 60px);
+          height: 8px;
+          border-radius: 4px;
+          border: 1px solid #eeefff;
+          background-color: #e8e8e8;
+          .figure_small {
+            height: 8px;
+            border-radius: 4px;
+            background-color: #15BCC5;
+          }
+        }
+        .percentage {
+          float: right;
+          width: 60px;
+          padding-left: 8px;
+          font-size: 14px;
+          color: #666;
+        }
+      }
+      .bottom_size {
+        color: #606060;
+        font-size: 14px;
+        .leftInfo {
+          float: left;
+        }
+        .rightInfo {
+          float: right;
+        }
+      }
+    }
+  }
+  // 描述信息
+  .describe_box {
+    .detail {
+      // height: 180px;
+      min-height: 180px;
+    }
+    .describe_detail {
+      background-color: #fff;
+      .title {
+        margin-bottom: 30px;
+      }
+      .information {
+        margin-left: 10px;
+        .el-col {
+          margin-bottom: 20px;
+          color: rgba(0,0,0,.5);
+        }
+      }
+      .last_info {
+        .title {
+          float: left;
+          height: 28px;
+          line-height: 28px;
+        }
+        .content {
+          float: right;
+          line-height: 28px;
+          // 主要为中间件的描述内容宽度，其他页面需要覆盖
+          width: calc(100% - 88px);
+        }
+      }
+    }
+  }
+}
